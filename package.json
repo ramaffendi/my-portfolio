@@ -1,7 +1,7 @@
 {
   "name": "ramadhan-effendi",
   "version": "0.1.0",
-  "homepage": "ramadhan-effendi.github.io",
+  "homepage": "https://ramaffendi.github.io/ramadhan-cv",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -29,7 +29,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
