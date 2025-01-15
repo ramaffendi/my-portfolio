@@ -117,19 +117,30 @@ const Date = styled.div`
 
 const EducationCard = ({ education }) => {
   return (
-    <Card>
-      <Top>
-        <Image src={education.img} />
-        <Body>
-          <Name>{education.school}</Name>
-          <Degree>{education.degree}</Degree>
-          <Date>{education.date}</Date>
-        </Body>
-      </Top>
-      <Description>
-        <Span>{education.desc}</Span>
-      </Description>
-    </Card>
+    <>
+      <Card>
+        <Top>
+          <Image src={education.img} />
+          <Body>
+            <Name>{education.school}</Name>
+            <Degree>{education.degree}</Degree>
+            <Date>{education.date}</Date>
+          </Body>
+        </Top>
+        <Description>
+          <Span>{education.desc}</Span>
+        </Description>
+        {/* Render link only if it exists */}
+        {education.link && (
+          <Span>
+            Link:{" "}
+            <a href={education.link} target="_blank" rel="noopener noreferrer">
+              {education.link}
+            </a>
+          </Span>
+        )}
+      </Card>
+    </>
   );
 };
 

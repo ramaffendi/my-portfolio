@@ -125,6 +125,52 @@ export const education = [
     desc: "a final-year management student actively learning and developing web skills through various online courses, with a focus on the MERN stack.",
     degree: "Majoring in Management",
   },
+  {
+    id: 2,
+    img: "https://th.bing.com/th/id/OIP.leE0QB2Ge0Jt_eK6RiUccwAAAA?w=200&h=200&rs=1&pid=ImgDetMain",
+    school: "PT Eduwork.id, Yogyakarta, IND",
+    date: "Jan 2025",
+    desc: "A passionate web developer specializing in the MERN stack, actively building projects and enhancing skills through hands-on experience and advanced courses.",
+    degree: "Web Developer",
+    link: "https://eduwork.id/student/eduwork.id/sertifikat/default/89678/206?type=view",
+  },
+  {
+    id: 3,
+    img: "https://about.udemy.com/wp-content/uploads/2021/12/udemy-logo-share.png",
+    school: "Udemy",
+    date: "Jan 2025",
+    desc: "Actively learning foundational web development skills, including HTML, CSS, and JavaScript, through comprehensive online courses to build modern and responsive websites",
+    degree: "Web Development Fundamentals",
+    link: "https://www.udemy.com/certificate/UC-8c0bf8fd-1869-4a37-adb0-f259d3c34247/",
+  },
+  {
+    id: 4,
+    img: "https://www.binus.edu/wp-content/uploads/2022/03/CodingStudio-square-480x480.jpeg",
+    school: "Coding Studio",
+    date: "Sep 2024",
+    desc: "Actively learning foundational web development skills, including HTML, CSS, and JavaScript, through comprehensive online courses to build modern and responsive websites",
+    degree: "Web Development Fundamentals",
+    link: "https://member.codingstudio.id/certificate/viielUjF13",
+  },
+];
+
+export const workExperience = [
+  {
+    id: 0,
+    img: "https://3.bp.blogspot.com/-9MnUN9B_e9Q/Wd8Z2xpVeqI/AAAAAAAAEIA/yg-WVB4kGpgXVUjR09V6hZGO519eDCkGgCLcBGAs/s1600/indomaret.png",
+    school: "PT Indomarco prismatama, Bekasi,IND",
+    date: "Sept 2021 - Aug 2024",
+    desc: "Receive and verify goods against delivery notes to ensure accuracy with documentation, Create delivery notes for damaged products to facilitate proper return or replacement and Check shelf inventory against system data to maintain stock accuracy and availability",
+    degree: "Store Crew",
+  },
+  {
+    id: 1,
+    img: "https://hargabelanja.com/wp-content/uploads/gaji-karyawan-PT-Otics-Indonesia-berapa-1280x720.png",
+    school: "PT Otics Indonesia, Bekasi, IND",
+    date: "Jan 2019 - Feb 2021",
+    desc: "Operate CNC machines to produce automobile engine parts, ensuring quality standards are met, Use measuring instruments to verify part dimensions and maintain accuracy and Monitor production quality, compile reports, and contribute to QCC programs to enhance product quality and process efficiency",
+    degree: "Production operator",
+  },
 ];
 
 export const projects = [

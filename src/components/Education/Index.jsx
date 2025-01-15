@@ -6,7 +6,7 @@ import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
-import { education } from "../../data/CConstants";
+import { education, workExperience } from "../../data/CConstants";
 import EducationCard from "../Cards/EducationCard";
 
 const Container = styled.div`
@@ -80,8 +80,10 @@ const index = () => {
       <Wrapper>
         <Title>Education</Title>
         <Desc>
-          My education has been a journey of self-discovery and growth. My
-          educational details are as follows.
+          My education has been a combination of formal studies and continuous
+          learning through online courses. This journey has allowed me to gain
+          in-depth knowledge and practical skills in web development, preparing
+          me to excel in building modern and responsive web applications.
         </Desc>
         <TimelineSection>
           <Timeline>
@@ -89,6 +91,31 @@ const index = () => {
               <TimelineItem>
                 <TimelineContent sx={{ py: "12px", px: 2 }}>
                   <EducationCard education={education} />
+                </TimelineContent>
+                <TimelineSeparator>
+                  <TimelineDot variant="outlined" color="secondary" />
+
+                  <TimelineConnector style={{ background: "#854CE6" }} />
+                </TimelineSeparator>
+              </TimelineItem>
+            ))}
+          </Timeline>
+        </TimelineSection>
+      </Wrapper>
+      <Wrapper>
+        <Title>Work Experience</Title>
+        <Desc>
+          My work experience has been a journey of continuous learning and
+          professional growth, enabling me to develop a diverse set of skills
+          and contribute meaningfully to every role I have undertaken. Below are
+          the details of my career :
+        </Desc>
+        <TimelineSection>
+          <Timeline>
+            {workExperience.map((work) => (
+              <TimelineItem>
+                <TimelineContent sx={{ py: "12px", px: 2 }}>
+                  <EducationCard education={work} />
                 </TimelineContent>
                 <TimelineSeparator>
                   <TimelineDot variant="outlined" color="secondary" />
