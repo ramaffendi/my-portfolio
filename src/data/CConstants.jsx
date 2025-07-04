@@ -258,7 +258,8 @@ export const projects = [
     date: "Mar 2025 - Apr 2025",
     description:
       "Built a simple yet functional To-Do List web application where users can add, delete, and mark tasks as completed. The data is stored locally using localstorage, ensuring tasks persist even after refreshing the page. Designed with a clean and responsive UI using HTML, Tailwind CSS, and React.js. Axios is also implemented for future scalability if backend integration is required",
-    image: "/mytodo1234.jpeg",
+    image:
+      "https://github.com/ramaffendi/NewFoto/blob/026c5cd7d1feee10f40a504bebb75ed978565a89/mytodo1234.jpeg?raw=true",
     tags: [
       "React Js",
       "LocalStorage",
@@ -279,7 +280,8 @@ export const projects = [
     date: "Jun 2025 - Jul 2025",
     description:
       "Developed a full-stack Contact Management web application where users can add, edit, search, and delete contacts. The frontend is built with React.js and Tailwind CSS, while the backend uses Node.js, Express.js, and MongoDB for data persistence. Axios is used for seamless communication between the client and server. The UI is clean, responsive, and user-friendly.",
-    image: "/Webcma1.jpeg",
+    image:
+      "https://github.com/ramaffendi/NewFoto/blob/026c5cd7d1feee10f40a504bebb75ed978565a89/Webcma1.jpeg?raw=true",
     tags: [
       "React Js",
       "Node Js",
