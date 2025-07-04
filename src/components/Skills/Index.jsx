@@ -65,6 +65,13 @@ const Skill = styled.div`
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   border-radius: 16px;
   padding: 18px 36px;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    box-shadow: rgba(23, 92, 230, 0.3) 0px 6px 30px;
+    transform: translateY(-5px);
+  }
+
   @media (max-width: 768px) {
     max-width: 400px;
     padding: 10px 36px;
@@ -102,6 +109,15 @@ const SkillItem = styled.div`
   align-items: center;
   justify-content: center;
   gap: 8px;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background: ${({ theme }) => theme.text_primary + 20};
+    color: ${({ theme }) => theme.text_primary};
+    border-color: ${({ theme }) => theme.text_primary};
+    transform: scale(1.05);
+  }
+
   @media (max-width: 768px) {
     font-size: 14px;
     padding: 8px 12px;
@@ -126,12 +142,12 @@ const Skills = () => {
           Here are some of my skills that I have learned this year and last.
         </Desc>
         <SkillsContainer>
-          {skills.map((skill) => (
-            <Skill>
+          {skills.map((skill, index) => (
+            <Skill key={index}>
               <SkillTitle>{skill.title}</SkillTitle>
               <SkillList>
-                {skill.skills.map((item) => (
-                  <SkillItem>
+                {skill.skills.map((item, idx) => (
+                  <SkillItem key={idx}>
                     <SkillImage src={item.image} />
                     {item.name}
                   </SkillItem>

@@ -239,6 +239,9 @@ const index = ({ openModal, setOpenModal }) => {
               View Code
             </Button>
           </ButtonGroup>
+          <Button dull href={project?.demo} target="new">
+            Link Demo
+          </Button>
         </Wrapper>
       </Container>
     </Modal>

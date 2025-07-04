@@ -51,12 +51,15 @@ const Title = styled.div`
 
 const Desc = styled.div`
   font-size: 18px;
-  text-align: center;
-  max-width: 600px;
+  text-align: justify;
+  text-justify: inter-word;
+  max-width: 800px;
+  line-height: 1.8;
   color: ${({ theme }) => theme.text_secondary};
   @media (max-width: 768px) {
     margin-top: 12px;
     font-size: 16px;
+    padding: 0 16px;
   }
 `;
 
@@ -74,16 +77,51 @@ const TimelineSection = styled.div`
   }
 `;
 
+const EducationTimelineSection = styled.div`
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 20px;
+  padding: 24px;
+  background: ${({ theme }) => theme.card_background}; // netral
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  transition: all 0.3s ease;
+`;
+
+const WorkTimelineSection = styled.div`
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 20px;
+  padding: 24px;
+  background: ${({ theme }) => theme.primary + "10"}; // transparan dari primary
+  border-left: 4px solid ${({ theme }) => theme.primary};
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(133, 76, 230, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  transition: all 0.3s ease;
+`;
+
 const index = () => {
   return (
     <Container id="education">
       <Wrapper>
-        <Title>Education</Title>
+        <Title>Education & Course Bootcamp</Title>
         <Desc>
-          My education has been a combination of formal studies and continuous
-          learning through online courses. This journey has allowed me to gain
-          in-depth knowledge and practical skills in web development, preparing
-          me to excel in building modern and responsive web applications.
+          My educational journey combines formal academic studies with hands-on
+          learning through intensive bootcamps and online courses. This blend of
+          theory and real-world practice has equipped me with strong
+          foundational knowledge and practical experience in full-stack web
+          development, empowering me to build modern, responsive, and scalable
+          web applications.
         </Desc>
         <TimelineSection>
           <Timeline>
@@ -119,7 +157,6 @@ const index = () => {
                 </TimelineContent>
                 <TimelineSeparator>
                   <TimelineDot variant="outlined" color="secondary" />
-
                   <TimelineConnector style={{ background: "#854CE6" }} />
                 </TimelineSeparator>
               </TimelineItem>

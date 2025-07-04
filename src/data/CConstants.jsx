@@ -1,13 +1,11 @@
-import Travell from "../../public/travell.jpeg";
-
 export const Bio = {
   name: "Ramadhan Effendi",
   roles: ["Web Developer", "Frontend Engineer", "Programmer"],
   description:
-    "A final-year student with expertise in frontend and backend development, specializing in the MERN stack (MongoDB, Express.js, React.js, Node.js). Gained hands-on experience through projects like booking platforms, e-commerce, and web streaming. Previous work in manufacturing and retail sharpened problem-solving, teamwork, and operational skills. Currently seeking a Software Engineer role to deliver innovative, end-to-end technology solutions.",
+    "A passionate programmer with a solid foundation in fullstack web development, specializing in the MERN stack (MongoDB, Express.js, React.js, Node.js). Gained practical experience through online courses and bootcamps, and passionate about building scalable, user-friendly web applications. Known for strong problem-solving and collaboration skills, I’m eager to grow and contribute to a dynamic development team.",
   github: "https://github.com/ramaffendi",
   resume:
-    "https://drive.google.com/file/d/1vAWwTim8PaMJttfjGnwH4Hkhm-Mbu6DT/view?usp=sharing",
+    "https://drive.google.com/file/d/1wnaXROqOPRdDrbbjmVSeqKFQR-omBzWM/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ramadhan-effendi-2950b3168/",
   insta: "https://www.instagram.com/effendi_ram/",
 };
@@ -111,9 +109,9 @@ export const skills = [
 export const education = [
   {
     id: 0,
-    img: "https://asset.loker.id/img/2022/01/logo-sekolah-150x150.png",
+    img: "https://th.bing.com/th/id/OIP.oppOzpGQQ-tgUjf1jJ3ehQHaIi?rs=1&pid=ImgDetMain",
     school: "High school 10 november, Bekasi,IND",
-    date: "Jul 2015 - Jul 2018",
+    date: "Jul 2014 - Jul 2017",
     desc: "learn the basics of mobile parts and their functions, and learn electricity in cars",
     degree: "automotive engineering",
   },
@@ -121,18 +119,18 @@ export const education = [
     id: 1,
     img: "https://1.bp.blogspot.com/-XXDqbk-Pfvs/XrMvdedkuTI/AAAAAAAAB_g/XNhc5-uqAsw92ugBDpADHx4nSnhSYFCTQCLcBGAsYHQ/s1600/Logo%2BUT%2B-%2BUniversitas%2BTerbuka.png",
     school: "Terbuka university, Tanggerang, IND",
-    date: "Apr 2019 - Present",
+    date: "Apr 2022 - Present",
     desc: "a final-year management student actively learning and developing web skills through various online courses, with a focus on the MERN stack.",
     degree: "Majoring in Management",
   },
   {
     id: 2,
     img: "https://th.bing.com/th/id/OIP.leE0QB2Ge0Jt_eK6RiUccwAAAA?w=200&h=200&rs=1&pid=ImgDetMain",
-    school: "PT Eduwork.id, Yogyakarta, IND",
+    school: "PT Sinergi insan andalan (Eduwork.id)",
     date: "Jan 2025",
     desc: "A passionate web developer specializing in the MERN stack, actively building projects and enhancing skills through hands-on experience and advanced courses.",
-    degree: "Web Developer",
-    link: "https://eduwork.id/student/eduwork.id/sertifikat/default/89678/206?type=view",
+    degree: "Web Developer(Bootcamp)",
+    link: "https://drive.google.com/file/d/1AZiFdq2b5UbtkmsA6K2pqJeIA2c0R7P8/view?usp=sharing",
   },
   {
     id: 3,
@@ -140,7 +138,7 @@ export const education = [
     school: "Udemy",
     date: "Jan 2025",
     desc: "Actively learning foundational web development skills, including HTML, CSS, and JavaScript, through comprehensive online courses to build modern and responsive websites",
-    degree: "Web Development Fundamentals",
+    degree: "Javascript Programming Fundamentals",
     link: "https://www.udemy.com/certificate/UC-8c0bf8fd-1869-4a37-adb0-f259d3c34247/",
   },
   {
@@ -177,7 +175,7 @@ export const projects = [
   {
     id: 9,
     title: "Travelling Apps",
-    date: "Jun 2023 - Jul 2023",
+    date: "Aug 2024 - Sep 2024",
     description:
       "Developed a simple Traveling app to facilitate accommodation search and booking. Key features include hotel search, room booking, and payment system",
     image:
@@ -194,11 +192,12 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/ramaffendi/Travell-booking",
+    demo: "https://github.com/ramaffendi/Travell-booking",
   },
   {
     id: 0,
-    title: "Web Movie",
-    date: "Apr 2023 - May 2023",
+    title: "Web Streaming Movie",
+    date: "Oct 2024 - Nov 2024",
     description:
       "Developed a web to watch various movie trailers with the feature of filtering videos of various ratings and searching for movies according to the user's wishes.",
     image:
@@ -206,11 +205,12 @@ export const projects = [
     tags: ["React Js", "Axios", "CSS", "Redux", "Git"],
     category: "web app",
     github: "https://github.com/ramaffendi/clone-movie-app",
+    demo: "https://ramaffendi.github.io/trailer-movie/",
   },
   {
     id: 1,
-    title: "Web Education/Course",
-    date: "Oct 2022 - Present",
+    title: "Web PintarNow Videos",
+    date: "Dec 2024 - Jan 2025",
     description:
       "Create an online web course that allows users to register and watch learning videos after logging in and selecting a course.",
     image:
@@ -226,11 +226,12 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/ramaffendi/web_course",
+    demo: "https://web-education-29ic.vercel.app/",
   },
   {
     id: 2,
     title: "Web E-commerce",
-    date: "Jan 2023 - Mar 2023",
+    date: "Jan 2025 - Mar 2025",
     description:
       "Create an e-commerce web that requires users to register for an account before purchasing the desired product. With features to filter by product type, product order, and payment system",
     image:
@@ -249,5 +250,50 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/ramaffendi/Webshop",
+    demo: "https://drive.google.com/file/d/1nhRQM9btbGCRKZeg-jfT2sSxCSA9_nQE/view?usp=sharing",
+  },
+  {
+    id: 3,
+    title: "Task Manager Apps",
+    date: "Mar 2025 - Apr 2025",
+    description:
+      "Built a simple yet functional To-Do List web application where users can add, delete, and mark tasks as completed. The data is stored locally using localstorage, ensuring tasks persist even after refreshing the page. Designed with a clean and responsive UI using HTML, Tailwind CSS, and React.js. Axios is also implemented for future scalability if backend integration is required",
+    image: "src/assets/todoapps1.jpg",
+    tags: [
+      "React Js",
+      "LocalStorage",
+      "Tailwind CSS",
+      "HTML",
+      "JavaScript",
+      "Axios",
+      "CSS",
+      "Git",
+    ],
+    category: "Web app",
+    github: "https://github.com/ramaffendi/todo-localstorage-app",
+    demo: "https://ramaffendi.github.io/todo-localstorage-app/",
+  },
+  {
+    id: 4,
+    title: "Contact Management Apps",
+    date: "Jun 2025 - Jul 2025",
+    description:
+      "Developed a full-stack Contact Management web application where users can add, edit, search, and delete contacts. The frontend is built with React.js and Tailwind CSS, while the backend uses Node.js, Express.js, and MongoDB for data persistence. Axios is used for seamless communication between the client and server. The UI is clean, responsive, and user-friendly.",
+    image: "src/assets/mypic12334.png",
+    tags: [
+      "React Js",
+      "Node Js",
+      "Express Js",
+      "MongoDB",
+      "Tailwind CSS",
+      "HTML",
+      "JavaScript",
+      "Axios",
+      "CSS",
+      "Git",
+    ],
+    category: "Web app",
+    github: "https://github.com/ramaffendi/cmapps",
+    demo: "https://github.com/ramaffendi/cmapps",
   },
 ];
